@@ -77,9 +77,9 @@ angular.module('imageraterApp')
         controller: 'AccountCtrl'
       })
 
-      .when('/chat', {
-        templateUrl: 'views/chat.html',
-        controller: 'ChatCtrl'
+      .when('/images', {
+        templateUrl: 'views/images.html',
+        controller: 'ImagesCtrl'
       })
       .otherwise({redirectTo: '/'});
   }])

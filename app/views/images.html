@@ -1,0 +1,9 @@
+<div>
+	This is where the images go
+	<div ng-repeat="image in images" ng-controller="ImageCtrl">
+		<img class="img-responsive" src="{{image.url}}" />
+		<button class="btn btn-default glyphicon glyphicon-thumbs-up" type="button"
+			ng-click="upVoteImage()"></button>
+		<button class="btn btn-default glyphicon glyphicon-thumbs-down" type="button"></button>
+	</div>
+</div>
