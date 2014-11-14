@@ -17,5 +17,6 @@ angular.module('imageraterApp', [
     'ngTouch',
     'firebase',
     'firebase.utils',
-    'simpleLogin'
+    'simpleLogin',
+    'ui.bootstrap'
   ]);

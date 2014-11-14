@@ -1,0 +1,6 @@
+<div class="form-control ir-taglist">
+	<ul>
+		<li ng-repeat="tag in tags track by $index" class="btn btn-primary btn-xs"><span>{{tag}}</span><a class="tag-close" ng-click="deleteFromList(tags, $index)"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a></li>
+		<li><input type="text" ng-model="selected" autocomplete="off" typeahead="tag for tag in taglist | filter:$viewValue | limitTo:8" typeahead-min-length="3" typeahead-on-select="addToList();" />
+	</ul>
+</div>

@@ -68,6 +68,31 @@ body {
   }
 }
 
+.ir-taglist {
+  height:auto;
+}
+.ir-taglist {
+  > ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+  }
+  > ul > li {
+    margin-right:5px;
+    display:inline-block;
+  }
+  input {
+    border:none;
+    outline: none;
+    box-shadow:none;
+    background:none;
+  }
+  .glyphicon {
+    color:#fff;
+    margin-left:3px;
+  }
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
